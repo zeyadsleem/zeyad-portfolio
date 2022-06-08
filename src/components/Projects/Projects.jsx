@@ -2,10 +2,9 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
-// import ProjectImg from '../Image/ProjectImg';
-import Img from 'gatsby-image';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import ProjectImg from '../Image/ProjectImg';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -37,7 +36,7 @@ const Projects = () => {
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
-                    duration={750}
+                    duration={1000}
                     delay={500}
                     distance="30px"
                   >
@@ -70,6 +69,7 @@ const Projects = () => {
                           See Live
                         </a>
                       )}
+
                       {repo && (
                         <a
                           target="_blank"
@@ -106,8 +106,7 @@ const Projects = () => {
                         }}
                       >
                         <div data-tilt className="thumbnail rounded">
-                          {/* FIXME Img not working why i donot know */}
-                          <Img src={img} alt={title} />
+                          <ProjectImg alt={title} filename={img} />
                         </div>
                       </Tilt>
                     </div>

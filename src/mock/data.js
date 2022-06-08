@@ -59,7 +59,7 @@ export const skillsData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'docker.png',
+    img: 'project.jpg',
     title: '',
     info: '',
     info2: '',
@@ -78,12 +78,12 @@ export const projectsData = [
     contributors: '',
     stack: ['', '', '', '', '', '', '', ''],
     note: '',
-    url: '',
+    url: 'https://github.com/',
     repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'Zeyad.png',
+    img: 'project.jpg',
     title: '',
     info: '',
     info2: '',
