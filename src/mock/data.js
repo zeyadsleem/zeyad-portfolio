@@ -103,10 +103,10 @@ export const aboutData = {
   img: 'Zeyad.png',
   paragraphOne: 'Hi my name is Zeyad Sleem. from Cairo, Egypt',
   paragraphTwo:
-    "I am a Software Developer with a passion for creating beautiful, responsive, and intuitive user interfaces. I holds a Bachelor's degree in Management Information Systems. have developed experience in both front-end and back-end development. I love exploring and learning new technologies and I am always looking to improve my skills.",
+    "I am a Software Developer with a passion for creating beautiful, responsive, and intuitive user interfaces. I holds a Bachelor's degree in Management Information Systems have developed experience in both front-end and back-end development. I love exploring and learning new technologies and I am always looking to improve my skills.",
 
   // [ ] add your resume link here
-  resume: 'https:www.google.com', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1RHlh-OUD0R0OmCiKuGHSCj6VayQxFtA5/view', // if no resume, the button will not show up
 };
 
 // CONTACT DATA
