@@ -55,43 +55,44 @@ export const skillsData = {
 };
 
 // PROJECTS DATA
-// [ ] add your projects here
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'zeyad-myreads.vercel.app_.png',
+    title: 'Book Shelf',
+    info:
+      'this project made to apply consents i was learned in udacity course,components, functional programming and class components ',
     info2: '',
     contributors: '',
-    stack: ['', '', '', '', '', '', '', ''],
+    stack: ['React', 'react router dom', 'react forms', 'css'],
     note: '',
-    url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    url: 'https://zeyad-myreads.vercel.app/',
+    repo: 'https://github.com/zeyadsleem/zeyad-myreads', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'nextjs-movie-app-mu.vercel.app_.png',
+    title: 'Nextjs Movie App',
+    info: 'Simple react movie app using nextjs framework',
     info2: '',
     contributors: '',
-    stack: ['', '', '', '', '', '', '', ''],
+    stack: ['Next.js.', 'css'],
     note: '',
-    url: 'https://github.com/',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    url: 'https://nextjs-movie-app-mu.vercel.app/',
+    repo: 'https://github.com/zeyadsleem/nextjs-movie-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'markdown-notepad.vercel.app_.png',
+    title: 'Markdown Notepad',
+    info:
+      'Markdown note app with fetchers like add,remove, costume textand preview to final product.made with react functional components, css3 andmarkdown third',
     info2: '',
     contributors: '',
-    stack: ['', '', '', '', '', '', '', ''],
+    stack: ['React', 'React Hooks', 'nanoId', 'css'],
     note: '',
-    url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    url: 'https://markdown-notepad.vercel.app/',
+    repo: 'https://github.com/zeyadsleem/markdown-notepad', // if no repo, the button will not show up
   },
 ];
 
@@ -105,7 +106,6 @@ export const aboutData = {
   paragraphTwo:
     "I am a Software Developer with a passion for creating beautiful, responsive, and intuitive user interfaces. I holds a Bachelor's degree in Management Information Systems have developed experience in both front-end and back-end development. I love exploring and learning new technologies and I am always looking to improve my skills.",
 
-  // [ ] add your resume link here
   resume: 'https://drive.google.com/file/d/1RHlh-OUD0R0OmCiKuGHSCj6VayQxFtA5/view', // if no resume, the button will not show up
 };
 
